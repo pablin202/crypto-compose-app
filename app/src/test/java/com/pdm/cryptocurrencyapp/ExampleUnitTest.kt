@@ -1,4 +1,4 @@
-package com.pdm.cryptocurrencyappyt
+package com.pdm.cryptocurrencyapp
 
 import org.junit.Test
 

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pdm.cryptocurrencyappyt">
+    package="com.pdm.cryptocurrencyapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:name=".CoinApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CryptocurrencyAppYT">
+        android:theme="@style/Theme.CryptocurrencyApp">
         <activity
-            android:name="com.pdm.cryptocurrencyappyt.com.pdm.cryptocurrencyapp.MainActivity"
+            android:name="com.pdm.cryptocurrencyapp.presentation.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.CryptocurrencyAppYT.NoActionBar">
+            android:theme="@style/Theme.CryptocurrencyApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
