@@ -1,4 +1,4 @@
-# cryptoapp
+# Crypto Compose App
 
 Android MVVM app
 
